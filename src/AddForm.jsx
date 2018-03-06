@@ -7,7 +7,8 @@ class AddForm extends Component {
         return (
             <div>
                 <Input type="text" label="Youtube Link" />
-                <Input type="submit" label="Send" />
+                <Input type="select" label="Select playlist" />
+                <Input type="submit" label="Add" />
             </div>
         );
     }

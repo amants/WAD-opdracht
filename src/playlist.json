@@ -1,6 +1,6 @@
 [   
     {
-    "name": "Playlist 1",
+    "name": "Party music",
     "songs": [
         {"Title": "God's plan","Artist": "Drake"},
         {"Title": "Crushed","Artist": "Parkway Drive"},
@@ -8,7 +8,7 @@
     ]},
 
     {
-    "name": "Playlist 2",
+    "name": "Chill music",
     "songs": [
         {"Title": "God's plan","Artist": "Drake"},
         {"Title": "Crushed","Artist": "Parkway Drive"},

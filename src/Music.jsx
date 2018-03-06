@@ -7,21 +7,6 @@ import PlaylistItem from './PlaylistItem';
 class Music extends Component {
 
     render = () => {
-        /*let songs = "";
-        playlist.map(pl => {
-            pl.songs.forEach(plitem => {
-                songs += <li> plitem.Artist + " - {plitem.Title}</li>
-            });
-            return songs;
-        })*/
-
-            /*playlist.forEach(pl => {
-                //pl.songs.forEach(plitem => {
-                return <li> {pl.songs[1].Artist} - {pl.songs[1].Title}</li>;
-                //})
-            })*/
-
-            //return playlist.forEach(pl => <li> {pl.songs[1].Artist} - {pl.songs[1].Title}</li>)
         return (
             
             playlist.map((pl,i) => {
