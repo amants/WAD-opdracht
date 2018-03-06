@@ -1,0 +1,17 @@
+[   
+    {
+    "name": "Playlist 1",
+    "songs": [
+        {"Title": "God's plan","Artist": "Drake"},
+        {"Title": "Crushed","Artist": "Parkway Drive"},
+        {"Title": "Shooting Stars","Artist": "Bag Raiders"}
+    ]},
+
+    {
+    "name": "Playlist 2",
+    "songs": [
+        {"Title": "God's plan","Artist": "Drake"},
+        {"Title": "Crushed","Artist": "Parkway Drive"},
+        {"Title": "Shooting Stars","Artist": "Bag Raiders"}
+    ]}
+]
