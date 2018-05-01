@@ -9,6 +9,7 @@ class PlaylistItem extends Component {
         return (
             playlist.map((plitem,i) => {
                 return <li key={i}>{plitem.Artist} - {plitem.Title}</li>
+                //Ellen is de allerleukste van allemaal
             })
         );
     }
