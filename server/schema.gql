@@ -1,0 +1,57 @@
+module.exports = `
+  type Playlist {
+    _id: String
+    title: String
+    songs: [Song]
+    user: User!
+  }
+
+  type Song {
+    _id: String
+    title: String
+    artist: String
+    playlist: Playlist
+    createdAt: Date
+    user: User!
+  }
+
+  type User {
+     _id: String
+    name: String
+    email: String!
+    jwt: String
+    playlists: [Playlist]!
+    songs: [Song]!
+  }
+
+
+  type Query {
+    allPlaylists: [Playlist]
+    playlist(_id:String!):Playlist
+    allUsers: [User]
+  }
+
+  type Mutation {
+    addSong(
+      title: String!
+      artist: String!
+      playlist: String!
+    ):Song
+    addPlaylist(
+      title: String!
+    ):Playlist
+    register(
+      name: String!
+      email: String!
+      password: String!
+    ):User
+    login(
+      email: String!
+      password: String!
+    ):User
+  }
+
+  scalar Date
+`
+
+
